@@ -84,7 +84,6 @@ input[type="text"]{
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    -webkit-appearance: none;
 }
 
 input[type="date"]{
