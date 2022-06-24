@@ -73,6 +73,16 @@ form,
 
 button{
     font-weight: bolder;
+    margin-bottom: 2rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 button,
@@ -102,10 +112,6 @@ fieldset{
     border: none;
     padding-bottom: 10px;
     align-items: center;
-}
-
-button{
-    margin-bottom: 2rem;
 }
 
 /* ===== OUTPUT FOR HOROSCOPE ===== */
