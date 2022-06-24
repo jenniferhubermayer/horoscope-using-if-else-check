@@ -15,7 +15,7 @@ checkHoroscope = (event) => {
         document.getElementById("zodiacImage").classList.remove("inactive");
         document.getElementById("zodiacImage").classList.add("active");
         zodiacHeadline.innerText = `AQUARIUS`;
-        zodiacPicture.style.backgroundImage = "url('../assets/img/aquarius.jpg')";
+        zodiacPicture.style.backgroundImage = "url('../img/aquarius.jpg')";
         zodiacText.innerText = `Have you been feeling a bit bored with your life lately? Well, good news! Today offers you a great…`;
     }
     else if (dateDay >= 20 && dateDay <= 28 && dateMonth == 02 || dateDay >= 1 && dateDay <= 20 && dateMonth == 03){
