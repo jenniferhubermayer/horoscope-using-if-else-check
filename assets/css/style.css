@@ -95,6 +95,7 @@ input[type="text"]{
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    color: rgb(63, 62, 62);
 }
 
 input[type="date"]{
