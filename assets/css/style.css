@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ===== GENERAL STYLES ===== */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h1,
+h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+h2,
+p{
+    width: 100%;
+    color: white;
+    padding-top: 1rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+/* ===== MAIN ===== */
+
+main{
+    background-image: url(../img/bg_stars.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 75%;
+    min-width: 300px;
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 2%;
+}
+
+/* ===== FORM ===== */
+
+label{
+    color: white;
+    min-width: 130px;
+    padding-bottom: 10px;
+}
+
+form,
+.horoscope{
+    width: 90%;
+}
+
+button{
+    font-weight: bolder;
+}
+
+button,
+input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type="date"]{
+    width: 30%;
+    min-width: 130px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: none;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+button{
+    margin-bottom: 2rem;
+}
+
+/* ===== OUTPUT FOR HOROSCOPE ===== */
+
+.horoscope{
+    height: 70%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* --- ELEMENT FOR ZODIAC IMAGES --- */
+
+div.active{
+    height: 30vw;
+    width: 30vw;
+    min-width: 150px;
+    min-height: 150px;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    display: block;
+}
+
+div.inactive{
+    display: none;
+}

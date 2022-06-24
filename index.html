@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeFlow Projekt lev1_1: Semi-Horoskop</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Horoscope</h1>
+      <form action="">
+        <!-- <input
+          type="text"
+          name="month"
+          id="month"
+          placeholder="Month of birth in letters"
+          required
+        /> -->
+        <fieldset>
+          <label for="date">Let me know your date of birth:</label>
+          <input type="date" name="date" id="date" required />
+        </fieldset>
+        <button type="submit" onclick="checkHoroscope(event)">show</button>
+      </form>
+      <article class="horoscope">
+        <div id="zodiacImage" class="inactive"></div>
+        <h2></h2>
+        <p></p>
+      </article>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
